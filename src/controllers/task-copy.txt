@@ -1,0 +1,16 @@
+//   try {
+//     const tasks = await Task.find({ isActive: true });
+
+//     return res.status(200).json({
+//       success: true,
+//       total: tasks.length,
+//       message: tasks.length ? "Tasks fetched successfully" : "No task found",
+//       data: tasks,
+//     });
+//   } catch (error) {
+//     console.log("Get Task Error", error);
+//     return res.status(500).json({
+//       success: false,
+//       message: "Innter Server Error",
+//     });
+//   }
